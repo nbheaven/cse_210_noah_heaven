@@ -16,7 +16,7 @@ class Journal {
     {
         Console.WriteLine ("What is the name of the file you would like to save to?");
         _filename = Console.ReadLine();
-    {
+     {
             File.WriteAllLines(_filename, _entries);
             Console.WriteLine("Entries saved successfully.");
     }
