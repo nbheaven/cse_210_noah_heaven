@@ -1,3 +1,5 @@
+namespace Develop05;
+
 class ChecklistGoal : Goal{
 
     private int _progress;
@@ -6,7 +8,7 @@ class ChecklistGoal : Goal{
     private double _totalPoints;
 
     public ChecklistGoal(string name = "", string description = "", double points = 0, bool complete = false, int progress = 0, double bonus = 0, double totalPoints = 0, int progressTotal = 0) : 
-    base(name, description, points, complete)
+        base(name, description, points, complete)
     {
         _goalType = "Checklist Goal";
         _progress = progress;

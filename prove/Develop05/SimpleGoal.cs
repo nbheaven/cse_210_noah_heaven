@@ -1,7 +1,9 @@
+namespace Develop05;
+
 class SimpleGoal : Goal{
 
     public SimpleGoal(string name = "", string description = "", double points = 0, bool complete = false) : 
-    base(name, description, points, complete)
+        base(name, description, points, complete)
     {
         _goalType = "Simple Goal";
     }

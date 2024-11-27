@@ -1,4 +1,4 @@
-using System.Runtime.CompilerServices;
+namespace Develop05;
 
 public abstract class Goal {
 
@@ -66,8 +66,8 @@ public abstract class Goal {
 
     public int CheckPointsInputInt() {
 
-          bool check = true;
-            int value = 0;
+        bool check = true;
+        int value = 0;
 
         while (check) {
 
@@ -81,12 +81,11 @@ public abstract class Goal {
             else {
 
                 Console.WriteLine("Invalid points, please try again");
-                continue;
             }
 
         }
             
-             return value;
+        return value;
 
     }
 
@@ -108,12 +107,11 @@ public abstract class Goal {
             else {
 
                 Console.WriteLine("Invalid points, please try again");
-                continue;
             }
 
         }
 
-         return points;
+        return points;
         
     }
 

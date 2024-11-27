@@ -1,11 +1,11 @@
-using System.Security.Cryptography;
+namespace Develop05;
 
 class EternalGoal : Goal{
 
     private double _totalPoints;
 
     public EternalGoal(string name = "", string description = "", double points = 0, double totalPoints = 0) : 
-    base(name, description, points) {
+        base(name, description, points) {
 
         _goalType = "Eternal Goal";
     }
@@ -44,14 +44,14 @@ class EternalGoal : Goal{
 
         _description = description;
    
-     }
+    }
 
 
     public override string DisplayForList(){
 
         return $"[ ] {_name} ({_description})";
 
-     }
+    }
 
     public override double GetPoints(){
 
