@@ -105,19 +105,10 @@ public abstract class Goal {
             }
 
             else {
-
                 Console.WriteLine("Invalid points, please try again");
             }
-
         }
-
         return points;
-        
     }
-
     public abstract string ToJson();
-
-
-
-
 }
